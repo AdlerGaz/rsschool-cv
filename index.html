@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,104 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="section">
+    <div class="container">
         <header>
-            <div><img class="header-photo" src="img/photo.jpg" alt="photo"></div>
-            <div class="header-name">
-                <span>Yury Maniakhin</span>
+            <div><img class="header__photo" src="img/photo.jpg" alt="photo"></div>
+            <div class="header__name">
+                <h1>Yury Maniakhin</h1>
             </div>
-            
+
         </header>
         <main>
-            <div class="main-links">
-                <div class="main-link"><a href=""><img src="img/telegram.png" alt=""></a></div>
-                <div class="main-link"><a href=""><img src="img/vk.png" alt=""></a></div>
-                <div class="main-link"><a href=""><img src="img/email.png" alt=""></a></div>
+            <ul class="main__links">
+                <li class="main__link"><a href="https://telegram.me/Manah91" target="_blank"><img src="img/telegram.png" alt="img-telegram"></a></li>
+                <li class="main__link"><a href="mailto:manah9191@mail.ru" target="_blank"><img src="img/email.png" alt="img-email"></a></li>
+                <li class="main__link"><a href="https://vk.com/manah91" target="_blank"><img src="img/vk.png" alt="img-vk"></a></li>
+            </ul>
+            <div class="summary">
+                <h2 class="summary__title">Summary:</h2>
+                <ul class="summary__list">
+                    <li>
+                        <h3>About: </h3>
+                        <p>I am a novice web developer. In the future, I want to become a full-stack developer. I
+                            consider my strengths to be purposefulness, punctuality, and a desire to constantly grow.
+                            What I am doing at the moment in order to become a web developer, I go to English language
+                            courses and in parallel with the course from RSSchool, I am studying the course The complete
+                            JavaScript Course 2021 by Jonas Schmedtmann. I try to spend all my free time studying
+                            programming and English.</p>
+                    </li>
+                    <li>
+                        <h3>Code example:</h3>
+
+                        <pre>
+                                <code>
+            function myAnimation() {
+                const elem = document.querySelector('.box');
+                let pos = 0;
+    
+                const id = setInterval(frame, 25);
+    
+                function frame() {
+                    if (pos == 300) {
+                        clearInterval(id);
+                    } else {
+                        pos++;
+                        elem.style.top = pos + 'px';
+                        elem.style.left = pos + 'px';
+                    }
+                }
+            }
+                            </code>
+                        </pre>
+
+                    </li>
+                    <li>
+                        <h3>Projects:</h3>
+                        <p><a href="https://AdlerGaz.github.io/rsschool-cv/cv" target="_blank">CV</a></p>
+                    </li>
+                    <li>
+                        <h3>Education:</h3>
+                        <p>
+                            <span>(2009-2015) BELARUSIAN-RUSSIAN UNIVERSITY</span><br>
+                            <span>Equipment and Technology of Welding Manufacture</span>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Skills:</h3>
+                        <ul>
+                            <li><span>Basic of C++</span></li>
+                            <li><span>Basic of Java</span></li>
+                            <li><span>Basic of JavaScript</span></li>
+                            <li><span>HTML / CSS</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>English: <span class="summary__languages">A1</span></h3>
+                    </li>
+                </ul>
             </div>
         </main>
+
+        <footer>
+            <nav></nav>
+            <ul>
+                <li>
+                    <a href="https://github.com/AdlerGaz" target="_blank">
+                        <img src="img/github.png" alt="image-github">
+                    </a></li>
+                <li>
+                    <time datetime="2022">2022 г.</time>
+                </li>
+                <li>
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="img/rsschool.png" alt="image-rsschool">
+                    </a>
+                </li>
+            </ul>
+        </footer>
     </div>
 </body>
+
 </html>
