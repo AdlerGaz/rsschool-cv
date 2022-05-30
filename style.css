@@ -1,0 +1,39 @@
+.section{
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(67, 67, 67);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background: rgb(129, 126, 126);
+    padding: 10px;
+    border-radius:30px 30px  0 0;
+}
+
+.header-photo{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header-name {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+main{
+    height: 500px;
+}
+
+.main-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px auto;
+}
+.main-link img{
+    width: 50px;
+}
