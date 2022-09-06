@@ -1,1 +1,1 @@
-# rsschool-cv
+https://adlergaz-JSFE2022Q3.github.io/rsschool-cv/cv
