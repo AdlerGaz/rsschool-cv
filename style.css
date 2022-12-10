@@ -167,3 +167,20 @@ a:hover {
     padding: 10px;
     margin-bottom: 20px;
 }
+
+.footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: rgb(137, 137, 137);
+    padding: 10px;
+    border-radius: 0 0 25px 25px
+}
+
+.footer img {
+    height: 80px;
+}
+
+.footer time {
+    color: black
+}
