@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header_img">
+                <img src="img/photo.jpg" alt="photo">
+            </div>
+            <div class="header_title">
+                <h1 class="header_name">Yury Maniakhin</h1>
+                <p class="header_work">Front-end Developer</p>
+            </div>
+            <nav class="header_nav">
+                <ol>
+                    <li><a href="#about">Link and About me</a></li>
+                    <li><a href="#code">Skills and Code example</a></li>
+                    <li><a href="#language">English and Education</a></li>
+                    <li><a href="#footer">Footer</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="main_left-side">
+                <div class="main_list">
+                    <ul class="links">
+                        <li>
+                            <img src="img/telegram.png" alt="email">
+                            <div class="link_title">
+                                <a href="https://t.me/Manah91" target="_blank">Telegram</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/email.png" alt="email">
+                            <div class="link_title">
+                                <a href="mailto:manah9191@mail.ru" target="_blank">Email</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/vk.png" alt="email">
+                            <div class="link_title">
+                                <a href="https://vk.com/manah91" target="_blank">VK</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/discord.png" alt="email">
+                            <div class="link_title">
+                                <a href="https://discord.com/users/816301828467458048" target="_blank">Discord</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h2 class="skill_title">
+                        Skills:
+                    </h2>
+                    <ul class="skill_list">
+                        <li>Basic of C++</li>
+                        <li>Basic of Java</li>
+                        <li>Basic of JavaScript</li>
+                        <li>HTML / CSS</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2 class="project_title">Projects:</h2>
+                    <ol>
+                        <li><a href="https://adlergaz.github.io/rsschool-cv/cv">CV</a></li>
+                    </ol>
+                </div>
+                <div id="language" class="language">
+                    <h2>English: </h2>
+                    <span>A2</span>
+                </div>
+            </div>
+            <div class="main_right-side">
+                <div id="about" class="about">
+                    <h2 class="about_title">About me: </h2>
+                    <p class="about_text">
+                        I am a novice web developer. In the future, I want to become a full-stack developer. I consider
+                        my strengths to be purposefulness, punctuality, and a desire to constantly grow. What I am doing
+                        at the moment in order to become a web developer, I go to English language courses and in
+                        parallel with the course from RSSchool, I am studying the course The complete JavaScript Course
+                        2021 by Jonas Schmedtmann. I try to spend all my free time studying programming and English.
+                    </p>
+                </div>
+
+                <div id="code" class="code">
+                    <h2 class="code_title">Code example: </h2>
+                    <pre>
+                        <code>
+function myAnimation() {
+    const elem = document.querySelector('.box');
+    let pos = 0;
+
+    const id = setInterval(frame, 25);
+
+    function frame() {
+        if (pos == 300) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.top = pos + 'px';
+            elem.style.left = pos + 'px';
+        }
+    }
+}
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="education">
+                    <h2 class="education_title">Education:</h2>
+                    <p class="education_text">(2009-2015) BELARUSIAN-RUSSIAN UNIVERSITY
+                        Equipment and Technology of Welding Manufacture</p>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer" class="footer">
+            <ul>
+                <li>
+                    <a href="https://github.com/AdlerGaz" target="_blank">
+                        <img src="img/github.png" alt="image-github">
+                    </a>
+                </li>
+                <li>
+                    <time datetime="2022">2022 г.</time>
+                </li>
+                <li>
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="img/rsschool.png" alt="image-rsschool">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
