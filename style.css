@@ -85,3 +85,85 @@ a:hover {
     flex-direction: column;
     justify-content: space-around;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.main_left-side {
+    padding-top: 5%;
+    padding-left: 3%;
+    background-color: rgb(2, 85, 91);
+    border-right: 2px solid rgb(137, 137, 137);
+}
+
+.main_list {
+    border-bottom: 2px solid rgb(137, 137, 137);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.links li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.links img {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.skill {
+    border-bottom: 2px solid rgb(137, 137, 137);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.skill_list li {
+    margin-bottom: 5px;
+}
+
+.project {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(137, 137, 137);
+}
+
+.language {
+    text-align: center;
+}
+
+.main_right-side {
+    background: linear-gradient(to right, rgb(2, 85, 91), 30%, rgb(137, 137, 137));
+    padding: 20px;
+    text-align: center;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.code {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.education {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
