@@ -77,6 +77,12 @@ a:hover {
     font-size: 19px;
 }
 
+.header_nav {
+    border: 1px solid azure;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 .header_nav ol {
     height: 80%;
     display: flex;
